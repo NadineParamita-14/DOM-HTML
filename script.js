@@ -1,15 +1,17 @@
-// Ganti warna background div 
-document.getElementById("container1").style.backgroundColor = "pink"; 
-document.getElementById("container2").style.backgroundColor = "lightblue"; 
+// Mengubah warna background container1 dan container2
+document.getElementById('container1').style.backgroundColor = 'pink'; // contoh warna favorit
+document.getElementById('container2').style.backgroundColor = 'lightblue'; // contoh warna favorit
 
-// Ganti href atribut pada tag <a> menjadi "https://www.google.com"
-document.querySelector("a").setAttribute("href", "https://www.google.com");
+// Mengganti href dari link
+document.querySelector('a').setAttribute('href', 'https://www.google.com');
 
-// Menggunakan loop untuk mengubah teks, style, size, dan warna background
-const listItems = document.querySelectorAll(".list");
-listItems.forEach((item, index) => {
-    item.textContent = `List Baru ${index + 1}`; 
-    item.style.fontSize = `${16 + index * 2}px`; 
-    item.style.fontFamily = "Verdana, Arial, sans-serif"; 
-    item.style.backgroundColor = "#ccc"; 
+// Menggunakan loop untuk mengubah text, style, size, dan warna background list
+const lists = document.querySelectorAll('li'); 
+
+lists.forEach((list, index) => {
+    list.textContent = `List Baru ${index + 1}`; 
+    list.style.fontSize = '25px'; 
+    list.style.fontStyle = 'courier'; 
+    list.style.backgroundColor = 'skyblue'; 
+    list.style.color = 'darkblue'; 
 });
