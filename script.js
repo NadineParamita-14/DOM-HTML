@@ -12,3 +12,4 @@ listItems.forEach((item, index) => {
     item.style.fontSize = `${16 + index * 2}px`; 
     item.style.fontStyle = "italic"; 
     item.style.backgroundColor = "#ccc"; 
+});
