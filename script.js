@@ -10,6 +10,6 @@ const listItems = document.querySelectorAll(".list");
 listItems.forEach((item, index) => {
     item.textContent = `List Baru ${index + 1}`; 
     item.style.fontSize = `${16 + index * 2}px`; 
-    item.style.fontStyle = "Verdana, Arial, sans-serif"; 
+    item.style.fontFamily = "Verdana, Arial, sans-serif"; 
     item.style.backgroundColor = "#ccc"; 
 });
