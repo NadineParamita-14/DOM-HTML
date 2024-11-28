@@ -1,7 +1,6 @@
 // Mengubah warna background container1 dan container2
-document.getElementById('container1').style.backgroundColor = 'pink'; // contoh warna favorit
-document.getElementById('container2').style.backgroundColor = 'lightblue'; // contoh warna favorit
-
+document.getElementById('container1').style.backgroundColor = 'pink'; 
+document.getElementById('container2').style.backgroundColor = 'lightblue'; 
 // Mengganti href dari link
 document.querySelector('a').setAttribute('href', 'https://www.google.com');
 
